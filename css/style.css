@@ -58,6 +58,7 @@ header{
 /* cart   */
 .cart{
     position: fixed;
+    display: none;
     top: 0;
     right: 0;
     width: 360px;
@@ -69,6 +70,7 @@ header{
 }
 .cart.active{
     right: 0;
+    display: block;
 }
 .cart-title{
     text-align: center;
@@ -198,3 +200,4 @@ gap: 1.5rem;
 .bx:hover{
     background: hsl(249, 32%, 17%);
 }
+
